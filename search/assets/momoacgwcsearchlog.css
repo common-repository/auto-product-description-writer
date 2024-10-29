@@ -1,0 +1,270 @@
+/* Main container styling */
+.momo-acgwc-search-mail-table {
+    font-family: inherit;
+}
+
+/* Customize the WP_List_Table output within the scoped class */
+
+/* Main table styling */
+.momo-acgwc-search-mail-table .wp-list-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin-top: 20px;
+    border: none;
+    table-layout: fixed;
+    font-weight: 600;
+}
+
+/* Table headers */
+.momo-acgwc-search-mail-table .wp-list-table thead th {
+    padding: 12px 10px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: none;
+}
+
+/* Table rows */
+.momo-acgwc-search-mail-table .wp-list-table tbody tr {
+    background-color: transparent;
+    overflow: hidden;
+    border: 1px solid #7dd3fc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.momo-acgwc-search-mail-table .wp-list-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+.momo-acgwc-search-mail-table .wp-list-table tbody tr {
+    background-color: #f0f9ff;
+}
+.momo-acgwc-search-mail-table tr td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-left: 1px solid #7dd3fc;
+}
+
+.momo-acgwc-search-mail-table tr td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-right: 1px solid #7dd3fc;
+}
+
+/* Table cells */
+.momo-acgwc-search-mail-table .wp-list-table td {
+    padding: 12px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+    border-bottom: 1px solid #7dd3fc !important;
+    border-top: 1px solid #7dd3fc;
+}
+.momo-acgwc-search-mail-table #the-list tr:last-child td,
+#the-list tr:last-child th {
+    border-bottom: 1px solid #7dd3fc !important;
+}
+
+/* Set specific column widths */
+.momo-acgwc-search-mail-table td.search_term,
+.momo-acgwc-search-mail-table td.user_id,
+.momo-acgwc-search-mail-table td.search_date {
+    width: 15% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Make the template column larger */
+.momo-acgwc-search-mail-table td.email_template {
+    width: 40%; /* Make this column larger */
+    white-space: normal; /* Allow wrapping */
+    word-wrap: break-word;
+}
+.momo-acgwc-search-mail-table th.column-email_template{
+    width: 35%;
+}
+.momo-acgwc-search-mail-table th.column-search_date{
+    max-width: 110px;
+}
+
+/* Action buttons in a single line */
+.momo-acgwc-search-mail-table .wp-list-table .actions-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Action buttons styling */
+.momo-acgwc-search-mail-table .wp-list-table .button {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.momo-acgwc-search-mail-table .wp-list-table .button:hover {
+    background-color: #006799;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+    .momo-acgwc-search-mail-table .wp-list-table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .momo-acgwc-search-mail-table .wp-list-table tbody tr {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .momo-acgwc-search-mail-table .wp-list-table td,
+    .momo-acgwc-search-mail-table .wp-list-table th {
+        display: block;
+        width: 100%;
+        padding: 8px;
+    }
+
+    .momo-acgwc-search-mail-table .wp-list-table .button {
+        margin-top: 5px;
+        width: 100%;
+    }
+} */
+
+/* Additional action container styling */
+.momo-sl-action-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #fff;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px 12px;
+    line-height: 0.2;
+}
+
+.momo-sl-action-container .momo-sl-action {
+    margin-right: 6px;
+    cursor: pointer;
+}
+.momo-sl-action-container .momo-sl-action:hover i{
+    color: #7dd3fc;
+}
+.momo-sl-action-email {
+    margin-left: 6px;
+}
+.momo-sl-action.email,
+.momo-sl-action.pro{
+    box-shadow: none;
+    margin-right: 0;
+    padding: 4px 6px;
+    cursor: pointer;
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+.momo-sl-action.email{
+    background-color: #7dd3fc;
+    color: #000;
+}
+.momo-sl-action.pro{
+    background-color: #d63638;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor:not-allowed;
+}
+.momo-sl-action-container{
+    margin-top: 6px
+}
+
+
+
+
+
+
+
+/*** Form ***/
+#momo-be-form #momo_mail_template_form textarea{
+    width: 100%!important;
+}
+/* Form field styles */
+.momo-form-field {
+    margin-bottom: 15px;
+}
+
+.momo-form-field label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Textarea styles */
+#momo_mail_template {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    font-family: inherit;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+#momo_mail_template:focus {
+    border-color: #007cba;
+    outline: none;
+}
+
+/* Form actions (buttons) */
+.momo-form-actions {
+    text-align: right;
+}
+
+.momo-form-actions button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.momo-form-actions .button-primary {
+    background-color: #007cba;
+    color: #fff;
+}
+
+.momo-form-actions .button-primary:hover {
+    background-color: #005f8d;
+}
+
+.momo-form-actions .button {
+    background-color: #f7f7f7;
+    color: #333;
+    margin-left: 10px;
+}
+
+.momo-form-actions .button:hover {
+    background-color: #e7e7e7;
+}
+
+.momo-agwc-searchmail-footer{
+    font-size: 14px;
+    padding: 16px;
+    margin-top: 18px;
+    line-height: 1.6;
+}
+/* Responsive design */
+@media (max-width: 600px) {
+    #momo_mail_template_form {
+        padding: 15px;
+    }
+
+    .momo-form-actions {
+        text-align: left;
+    }
+}

@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'openai';
+    src:  url('../fonts/openai.eot?wltp5n');
+    src:  url('../fonts/openai.eot?wltp5n#iefix') format('embedded-opentype'),
+      url('../fonts/openai.ttf?wltp5n') format('truetype'),
+      url('../fonts/openai.woff?wltp5n') format('woff'),
+      url('../fonts/openai.svg?wltp5n#openai') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="openai-icon-"], [class*=" openai-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'openai' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bx.openai-icon-custom{
+    font-family: 'openai' !important;
+}
+.openai-icon-custom:before {
+    content: "\e900";
+}
+li#toplevel_page_momoacgwc .wp-submenu a[href="admin.php?page=momoacgwc-getting-started"] {
+  border-top: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+}
+li#toplevel_page_momoacgwc .wp-submenu a[href="admin.php?page=momoacgwc-getting-started"] {
+    color: #FF6978 !important;
+}

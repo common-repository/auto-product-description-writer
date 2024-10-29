@@ -1,0 +1,309 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenAI Product Description Writer for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-06 09:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: momoacgwc"
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:96
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:104
+msgid "0.0"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:72
+msgid "0.7"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:88
+msgid "1.0"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:80
+msgid "2000"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-instructions.php:19
+msgid "Add the API key"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-instructions.php:21
+msgid ""
+"Add the title, product tags. Add price, shipping, weight and product "
+"attribute, and finally click the blue Generate button in the Generator "
+"metabox."
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-openai.php:35
+msgid "API Key"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:23
+msgid "Arabic"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:34
+msgid "Bengali"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:24
+msgid "Chinese"
+msgstr ""
+
+#: includes/class-momo-acg-wc-rest-api.php:283
+msgid "Content generated successfully."
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-instructions.php:20
+msgid "Create a new product page. WooCommerce > Products > Add Product."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:16
+msgid "Dutch"
+msgstr ""
+
+#. %s: settings url
+#: includes/class-momo-acg-wc-rest-api.php:310
+#, php-format
+msgid "Empty API key, please store OpenAI API key in MoMo ACG %s first."
+msgstr ""
+
+#: includes/class-momo-basic-functions-acg-wc.php:58
+msgid "Empty API key, please store OpenAI API key in MoMo ACG settings first."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:15
+msgid "English"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-openai.php:66
+msgid "Export"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:98
+msgid "For improving the quality and coherence of the generated text."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:17
+msgid "French"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:95
+msgid "Frequency Penalty"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:118
+msgid "Generate"
+msgstr ""
+
+#: includes/admin/class-momo-acg-wc-admin-init.php:60
+msgid "Generating Product.."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:18
+msgid "German"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-openai.php:41
+msgid "Get API Key"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:74
+msgid ""
+"Higher temperature generates less accurate but diverse and creative output. "
+"Lesser temperature will generate more accurate results."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:19
+msgid "Hindi"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:25
+msgid "Hongkong Chinese"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.momothemes.com/"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-openai.php:71
+msgid "Import"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-openai.php:62
+msgid "Import / Export Settings"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:20
+msgid "Indonesian"
+msgstr ""
+
+#: includes/admin/pages/momo-acg-wc-settings.php:25
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:21
+msgid "Italian"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:22
+msgid "Japanese"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:26
+msgid "Korean"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:64
+msgid "Language"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:36
+msgid "Malay"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:79
+msgid "Max Tokens"
+msgstr ""
+
+#. Author of the plugin
+msgid "MoMo Themes"
+msgstr ""
+
+#: includes/admin/pages/momo-acg-wc-settings.php:15
+msgid "MoMo Themes - Woo Product Writer"
+msgstr ""
+
+#: includes/admin/class-momo-acg-wc-admin-ajax.php:96
+msgid "Not correct json format!"
+msgstr ""
+
+#: includes/class-momo-acg-wc-rest-api.php:209
+#: includes/class-momo-acg-wc-rest-api.php:249
+#: includes/class-momo-acg-wc-rest-api.php:276
+msgid "Not enough choices generated."
+msgstr ""
+
+#. Description of the plugin
+msgid "Open AI enabled content generator for Woocommerce."
+msgstr ""
+
+#. Name of the plugin
+#: class-momo-acg-for-woocommerce.php:36
+msgid "OpenAI Product Description Writer for WooCommerce"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:35
+msgid "Persian"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:27
+msgid "Polish"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:28
+msgid "Portuguese"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:103
+msgid "Presence Penalty"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:23
+msgid "Product Description"
+msgstr ""
+
+#: includes/class-momo-acg-wc-rest-api.php:95
+msgid "Product title field is empty."
+msgstr ""
+
+#: includes/class-momo-acg-wc-rest-api.php:200
+#: includes/class-momo-acg-wc-rest-api.php:239
+#: includes/class-momo-acg-wc-rest-api.php:267
+msgid "Provided url not found."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:29
+msgid "Russian"
+msgstr ""
+
+#: includes/admin/pages/momo-acg-wc-settings.php:24
+msgid "Settings"
+msgstr ""
+
+#: includes/class-momo-acg-wc-rest-api.php:306
+msgid "settings page"
+msgstr ""
+
+#: includes/class-momo-acg-wc-rest-api.php:293
+msgid "Something went wrong while generating content. Please try again."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:30
+msgid "Spanish"
+msgstr ""
+
+#: includes/admin/class-momo-acg-wc-admin-ajax.php:100
+msgid "Successfully updated settings!"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:71
+msgid "Temperature"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:90
+msgid "To control randomness of the output."
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:106
+msgid "To produce more concise text."
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:87
+msgid "Top P"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:31
+msgid "Turkish"
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:32
+msgid "Ukranian"
+msgstr ""
+
+#: includes/admin/metabox/class-momo-acg-wc-metabox.php:82
+msgid ""
+"Use it in combination with \"Temperature\" to control the randomness and "
+"creativity of the output."
+msgstr ""
+
+#: includes/class-momo-acg-wc-lang-all.php:33
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/admin/class-momo-acg-wc-admin-init.php:31
+#: includes/admin/class-momo-acg-wc-admin-init.php:32
+msgid "Woo Product Writer"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-openai.php:27
+msgid "Woo Product Writer : OpenAI API Settings"
+msgstr ""
+
+#: includes/admin/pages/page-momo-acgwc-instructions.php:13
+msgid "Woo Product Writer Instructions"
+msgstr ""
+
+#: includes/class-momo-basic-functions-acg-wc.php:105
+msgid "WP_Error"
+msgstr ""

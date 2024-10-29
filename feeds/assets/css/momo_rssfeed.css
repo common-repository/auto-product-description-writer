@@ -1,0 +1,94 @@
+/** For momoacg **/
+.auto-content-generator_page_momorssfeed .ui-widget-header{
+    background: #FF6978;
+}
+.momo-fake-btn{
+    cursor:not-allowed;
+}
+table.momo-acg-rssfeed-titles-table,
+table.momo-rssfeed-queue-list-table{
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+}
+table.momo-acg-rssfeed-titles-table tr th,
+table.momo-acg-rssfeed-titles-table tr td,
+table.momo-rssfeed-queue-list-table tr th,
+table.momo-rssfeed-queue-list-table tr td{
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+table.momo-acg-rssfeed-titles-table tr td,
+table.momo-rssfeed-queue-list-table tr td{
+    padding: 6px;
+    vertical-align: middle;
+}
+table.momo-acg-rssfeed-titles-table tr th,
+table.momo-rssfeed-queue-list-table tr th {
+    color: #3c434a;
+    font-weight: normal;
+    background-color: #e8e9eb;
+    font-size: 16px;
+    font-weight: 800;
+    position: sticky;
+    top: 0;
+}
+table.momo-rssfeed-queue-list-table tr td.action{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#momo-be-form table.momo-rssfeed-queue-list-table tr td.action i.bx{
+    font-size: 18px;
+    cursor: pointer;
+}
+.momo-be-tc-yes-container.momo-inline-block.active{
+    display: inline-block!important;
+    padding: 0;
+    border: none;
+}
+#momo-be-form input[type="text"][name="momo_rssfeed_select_date"]{
+    max-width: 17em;
+    text-align: center;
+    display: inline;
+}
+.momo-rssfeed-bottom-column .momo-three-column{
+    text-align: center;
+    padding-bottom: 15px;
+}
+/** Working Animation **/
+.td-working i{
+    display: none;
+}
+.td-working {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 4px solid #8f8f8f;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+.td-working::after {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-bottom: 4px solid #FF6978;
+    border-left: 4px solid transparent;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 

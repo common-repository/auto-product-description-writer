@@ -1,0 +1,105 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-momo-acg-block input[type=text] {
+  font-family: Gilbert, sans-serif;
+  font-size: 64px;
+  color: inherit;
+  background: inherit;
+  border: 0;
+}
+
+.momo-aihelper-block-container {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 6px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.momo-aihelper-block-wrapper {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: -6px;
+}
+
+.momo-aihelper-block-wrapper .components-spinner {
+  color: #FF6978;
+  position: absolute;
+  top: 10px;
+  left: 18px;
+}
+
+.momo-aihelper-block-wrapper .components-spinner circle {
+  stroke-width: 2.5px;
+}
+
+.momo-aihelper-block-container .momo-aihelper-block-icon {
+  margin-right: 10px;
+}
+
+.momo-aihelper-block-container .momo-aihelper-block-textarea {
+  flex: 1;
+  border: none;
+  overflow: hidden;
+  resize: none;
+  height: 32px;
+  margin-top: 4px;
+  overflow-wrap: break-word;
+}
+
+.momo-aihelper-block-container textarea.momo-aihelper-block-textarea,
+.momo-aihelper-block-container textarea.momo-aihelper-block-textarea:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.momo-aihelper-block-button {
+  white-space: nowrap;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #3b3b3b;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 12px;
+  font-weight: 600;
+}
+
+.momo-aihelper-block-button.momo-outer {
+  z-index: 111111;
+}
+
+.momo-aihelper-block-button i.bx {
+  cursor: pointer;
+  color: #FF6978;
+  margin-right: 8px;
+}
+
+.momo-aihelper-temp-result {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.momo-aihelper-temp-result table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.momo-aihelper-temp-result thead {
+  border-bottom: 3px solid;
+}
+
+/*# sourceMappingURL=index.css.map*/

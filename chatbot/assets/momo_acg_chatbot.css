@@ -1,0 +1,250 @@
+.momo-acg-chatbot-circle{
+    position: fixed;
+    background: var(--momo-cb-theme-color);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    padding: 18px;
+    cursor: pointer;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.6), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    z-index: 1111111;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+.momo-acg-chatbot-circle.bottom-right{
+    bottom: 50px;
+    right: 50px;
+}
+.momo-acg-chatbot-circle.bottom-left{
+    bottom: 50px;
+    left: 50px;
+}
+.momo-acg-chatbot-circle.top-left{
+    top: 50px;
+    left: 50px;
+}
+.momo-acg-chatbot-circle.top-right{
+    top: 50px;
+    right: 50px;
+}
+.momo-acg-chatbot-circle i{
+    font-size: 32px;
+}
+.momo-acg-chatbox > *{
+    box-sizing: border-box;
+}
+.momo-acg-chatbox {
+    font-family: Verdana, sans-serif;
+    line-height: 1.2;
+    font-size: 15px;
+    display: none;
+    background: #efefef;
+    position: fixed;
+    width: 350px;
+    height: var(--momo-cb-body-height);
+    width: var(--momo-cb-body-width);
+    /* max-width: 85vw;
+    max-height: 100vh; */
+    border-radius: 5px;
+    box-shadow: 0px 5px 35px 9px var(--momo-cb-theme-color);
+    box-shadow: 0px 5px 35px 9px #ccc;
+    z-index: 1111111;
+    box-sizing: border-box;
+}
+.momo-acg-chatbox.bottom-right{
+    right: 30px;
+    bottom: 50px;
+}
+.momo-acg-chatbox.bottom-left{
+    left: 30px;
+    bottom: 50px;
+}
+.momo-acg-chatbox.top-left{
+    left: 30px;
+    top: 50px;
+}
+.momo-acg-chatbox.top-right{
+    right: 30px;
+    top: 50px;
+}
+.momo-acg-cb-header{
+    background: var(--momo-cb-theme-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    height: var(--momo-cb-top-height);
+}
+.momo-acg-cb-toggle{
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.momo-acg-cb-toggle i{
+    font-size: 24px;
+}
+.momo-acg-cb-body{
+    position: relative;
+    border: 1px solid #ccc;
+    height: calc( var(--momo-cb-body-height) - var(--momo-cb-top-height) - var(--momo-cb-bottom-height) );
+
+    overflow: hidden;
+}
+.momo-acg-cb-logs{
+    padding: 15px;
+    height: inherit;
+    overflow-y: scroll;
+}
+
+@keyframes bouncy {
+    0% { transform: scale(.1); opacity: 0 }  
+    80% { transform: scale(1.15); opacity: 1 }  
+    90% { transform: scale(.9); }  
+    100% { transform: scale(1); }  
+}
+.acg-cb-message{
+    clear: both;
+    margin-bottom: 25px;
+    animation: bouncy .5s linear forwards;
+    display: block;
+
+    display: flex;
+    flex-direction: row;
+}
+.acg-cb-message.acg-ai {
+    float: right;
+}
+.acg-cb-message .acg-name{
+    vertical-align: baseline;
+    color: #3d3737;
+    margin-top: 12px;
+}
+.acg-cb-message .acg-message{
+    padding: 12px;
+    border-radius: 12px;
+    color: #FFF;
+    display: inline-block;
+
+    flex-direction: column;
+    white-space: pre-wrap;
+}
+.acg-cb-message.acg-ai .acg-name{
+    margin-left: 8px;
+}
+.acg-cb-message.acg-message-bad .acg-message{
+    background-color: #931f45;
+}
+.acg-cb-message.acg-ai .acg-message{
+    background-color: var(--momo-cb-ai-message);
+}
+.acg-cb-message.acg-user .acg-message{
+    background-color: var(--momo-cb-user-message);
+    color:#000;
+}
+.acg-cb-message.acg-user {
+    float: left;
+}
+.acg-cb-message.acg-user .acg-name{
+    margin-right: 8px;
+}
+.momo-acg-cb-footer{
+    height: var(--momo-cb-bottom-height);
+    position: relative;
+}
+.momo-acg-cb-input-form{
+    position: relative;
+    margin: 0;
+}
+.momo-acg-cb-input-form input{
+    background: #f4f7f9;
+    width: 100%;
+    position: relative;
+    height: var(--momo-cb-bottom-height);
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    resize: none;
+    outline: none;
+    border: 1px solid #ccc;
+    border-top-width: 1px;
+    color: #888;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.momo-acg-cb-input-form i{
+    position: absolute;
+    font-size: 22px;
+    color: var(--momo-cb-theme-color);
+    right: 12px;
+    top: calc( var(--momo-cb-bottom-height) / 4 );
+    cursor: pointer;
+}
+
+
+
+.momo-acg-chatbot-typing-container{
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-style: italic;
+    position: relative; /* Added for positioning */
+    overflow: hidden;  /* Added to hide overflow */
+}
+.momo-acg-chatbot-bubble-text {
+    display: inline-block;
+    margin: 0;
+}
+.typing-dot {
+visibility: hidden;
+}
+.typing-dot.visible{
+    visibility: visible;
+}
+@keyframes leftright {
+    0% {
+      left: 0%;margin-left: -50px
+    }
+    100% {
+      left: 100%; margin-left: -50px
+    }
+}
+.momo-chatbot-working{
+    background-color: transparent;
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    display: block;
+    overflow: hidden;
+}
+.momo-chatbot-working.show{
+    display:block;
+}
+.momo-chatbot-working.show::before{
+    content: "";
+    width: 200px;
+    height: 100%;
+    display: block;
+    background-color: var(--momo-cb-theme-color);
+    position: absolute;
+    left: 0;
+    animation-name: leftright;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+}
